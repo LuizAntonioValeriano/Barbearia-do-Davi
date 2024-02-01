@@ -1,0 +1,309 @@
+@media all /*pc e telas maiores*/ {
+  /*gerais*/
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  body::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+
+  html {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(250, 249, 249);
+  }
+
+
+
+
+
+  /*header*/
+.imagem-inicio{
+    background-image: url(./imagens/Background\ -\ primeira\ parte.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 2em;
+  }
+
+.barra-inicial{
+    background-color: #972A13;
+    display: flex;
+    width: 80vw;
+    border-radius: 10px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+
+.barra-icones{
+    display: flex;
+    align-items: center;
+    gap: 1.5em;
+  }
+
+.texto-inicial{
+  color: white;
+  width: 80vw;
+  margin: auto;
+  margin-top: 7em;
+}
+
+.nome-barbearia{
+  font-family: "Lacquer", system-ui;
+}
+
+.descrição-barbearia{
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.botão-agendar{
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  background-color: #972A13;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+
+
+
+  /*main*/
+.imagem-linha{
+  width: 50px;
+}
+
+.bem-vindo{
+  font-family: "Lacquer", system-ui;
+}
+
+.geral-sobre-barbearia{
+  width: 80vw;
+  padding: 60px 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
+
+.cortando-cabelo{
+  width: 250px;
+}
+
+.geral-sobre-barbearia div{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.elogios{
+  background-image: url(./imagens/Terceira\ parte.png);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+
+.elogios div{
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  padding: 3em 0em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+
+}
+
+.aspas{
+  width: 50px;
+  margin: auto
+}
+
+.especialidades{
+  font-family: "Lacquer", system-ui;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.primeira-caixa{
+  background-color: rgb(123, 121, 121);
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.nome-barba{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.segunda-caixa{
+  background-color: rgb(123, 121, 121);
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.nome-barba2{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.todos-blocos{
+  display: flex;
+  gap: 1em;
+  margin-top: 3em;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 6em;
+}
+
+.terceira-caixa{
+  background-color: rgb(123, 121, 121);
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.nome-barba3{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.quarta-caixa{
+  background-color: rgb(123, 121, 121);
+  padding-top: 25px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 300px;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.nome-barba4{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.paragrafos-geral{
+  text-align: justify;
+}
+
+
+
+
+
+
+  /*footer*/
+
+.agende-corte{
+  color: white;
+  padding: 100px 10px;
+  background-image: url(./imagens/parte\ cinco.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+.titulos-finais{
+  display: flex;
+  justify-content: space-around;
+}
+}
+
+.agendar{
+  padding-right: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  background-color: #972A13;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+.final{
+  font-weight: bold;
+}
+
+/* Estilos para tablets */
+@media (max-width: 1100px) {
+  #retira-p{
+    display: none;
+  }
+  .imagem-logo{
+    width: 80px;
+  }
+  .icone-retirado{
+    width: 20px;
+  }
+  .icone-menu{
+    width: 38px;
+  }
+
+  .geral-sobre-barbearia{
+    width: 80vw;
+    padding: 60px 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+  }
+
+  .titulos-finais{
+    align-items: center;
+    display: flex;
+    gap: 2em;
+    flex-direction: column;
+  }
+
+  .final{
+    font-size: 30px;
+  }
+}
+
+
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  /*header*/
+
+  .icone-retirado{
+    display: none;
+  }
+  .imagem-logo{
+    width: 50px;
+  }
+  .icone-menu{
+    width: 28px;
+  }
+}
